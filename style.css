@@ -16,6 +16,16 @@ button {
   margin-top: 15px !important;
 }
 
+input {
+  font-size: 30px !important;
+  color: white;
+  background-color: #333333;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50% !important;
+  margin-top: 15px !important;
+}
+
 .zero {
   padding: 10px 130px 10px 25px;
   border-radius: 30px !important;
