@@ -1,0 +1,52 @@
+.calculator {
+  max-width: 418px;
+  background-color: black;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 30px !important;
+  color: white;
+  background-color: #333333;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50% !important;
+  margin-top: 15px !important;
+}
+
+.zero {
+  padding: 10px 130px 10px 25px;
+  border-radius: 30px !important;
+}
+
+.top-row button {
+  background-color: #a5a5a5;
+  color: black;
+}
+
+.right-col button {
+  background-color: #fc9505;
+  font-size: 35px !important;
+}
+
+.fraction button {
+  font-size: 25px !important;
+  padding: 15px 20px;
+}
+
+.decimal button {
+  padding: 10px 30px;
+}
+
+.minus button {
+  padding: 10px 29px;
+}
+
+.calculator h1 {
+  font-weight: lighter;
+  color: white;
+  font-size: 50px;
+  margin-top: 90px;
+}
