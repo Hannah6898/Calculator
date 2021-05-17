@@ -1,11 +1,5 @@
-// when buttons are pressed, number shows up on main display
+//Assign value to each button
+//When button is pressed, value is shown in the console
 
-function showNumber() {
-  let mainDisplay = document.querySelector("#main-display");
-  mainDisplay.innerHTML = `${button.value}`;
-}
-
-let button = document.querySelectorAll(".button");
-
-button.addEventListener("click", showNumber);
-console.log(button);
+const buttons = document.querySelectorAll("button");
+//.forEach((button) => console.log(button.value));
