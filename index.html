@@ -14,7 +14,6 @@
     />
   </head>
   <body>
-    <h1>calculator</h1>
     <div class="container">
       <div class="calculator">
         <div class="row d-flex">
@@ -26,7 +25,7 @@
         </div>
         <div class="row">
           <div class="col top-row">
-            <button>C</button>
+            <button data-action="clear">C</button>
           </div>
           <div class="col top-row fraction">
             <button>+/-</button>
@@ -35,7 +34,7 @@
             <button>%</button>
           </div>
           <div class="col right-col">
-            <button>÷</button>
+            <button data-action="divide">÷</button>
           </div>
         </div>
         <div class="row">
@@ -49,7 +48,7 @@
             <button type="button" value="9">9</button>
           </div>
           <div class="col right-col">
-            <button>×</button>
+            <button data-action="multiply">×</button>
           </div>
         </div>
         <div class="row">
@@ -63,7 +62,7 @@
             <button type="button" value="6">6</button>
           </div>
           <div class="col right-col minus">
-            <button>-</button>
+            <button data-action="minus">-</button>
           </div>
         </div>
         <div class="row">
@@ -77,7 +76,7 @@
             <button type="button" value="3">3</button>
           </div>
           <div class="col right-col">
-            <button>+</button>
+            <button data-action="plus">+</button>
           </div>
         </div>
         <div class="row">
@@ -88,7 +87,7 @@
             <button>.</button>
           </div>
           <div class="col-3 right-col">
-            <button>=</button>
+            <button data-action="equals">=</button>
           </div>
         </div>
       </div>
